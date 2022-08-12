@@ -913,7 +913,7 @@
     "color": {
         "primary": {
             "brandcore": {
-                "value": "#90E24A",
+                "value": "4A#90E2",
                 "type": "color"
             },
             "contentcore": {
