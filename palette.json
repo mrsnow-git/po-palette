@@ -913,9 +913,9 @@
   "color": {
     "primary": {
       "brandcore": {
-        "value": "#CDAA62",
+        "value": "#1b1b1b",
         "type": "color",
-        "description": "Previously used as #930E0E"
+        "description": "Previously used as #930E0E #CDAA62" 
       },
       "contentcore": {
         "value": "#1b1b1b",
