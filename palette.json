@@ -924,9 +924,9 @@
     },
     "secondary": {
       "neutral": {
-        "value": "#f84747",
+        "value": "#1D2E3799",
         "type": "color",
-        "description": "rgba(29,46,55,0.4) / 1D2E3799"
+        "description": "rgba(29,46,55,0.4)"
       },
       "moderate": {
         "value": "#1D2E3705",
