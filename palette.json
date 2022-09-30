@@ -809,7 +809,7 @@
         "type": "x"
       },
       "y": {
-        "value": "-0.5",
+        "value": "-1",
         "type": "y"
       },
       "blur": {
@@ -821,7 +821,7 @@
         "type": "spread"
       },
       "color": {
-        "value": "$color.secondary.neutral",
+        "value": "$color.shades.highlight",
         "type": "color"
       },
       "type": {
