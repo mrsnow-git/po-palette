@@ -7,7 +7,7 @@
     "base": {
       "value": "0.5",
       "type": "borderWidth",
-      "description": "Deafult border thikness"
+      "description": "Default border thickness"
     },
     "normal": {
       "value": "$borderWidth.base * 2",
