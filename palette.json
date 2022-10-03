@@ -929,9 +929,9 @@
         "description": "rgba(29,46,55,0.4)"
       },
       "moderate": {
-        "value": "#1D2E3713",
+        "value": "#1D2E3705",
         "type": "color",
-        "description": "rgba(29,46,55,0.05)"
+        "description": ""
       }
     },
     "shades": {
