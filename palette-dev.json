@@ -926,12 +926,12 @@
       "neutral": {
         "value": "#1D2E3799",
         "type": "color",
-        "description": "rgba(29,46,55,0.4)"
+        "description": "rgba(29,46,55,0.6)"
       },
       "moderate": {
         "value": "#1D2E3705",
         "type": "color",
-        "description": "rgba(29,46,55,0.05)"
+        "description": "rgba(29,46,55,0.02)"
       }
     },
     "shades": {
