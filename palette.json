@@ -913,7 +913,7 @@
   "color": {
     "primary": {
       "brandcore": {
-        "value": "#1b1b1b",
+        "value": "#F94F0D",
         "type": "color",
         "description": "Previously used as #930E0E #CDAA62" 
       },
@@ -926,12 +926,12 @@
       "neutral": {
         "value": "#1D2E3799",
         "type": "color",
-        "description": "rgba(29,46,55,0.4)"
+        "description": "rgba(29,46,55,0.6)"
       },
       "moderate": {
         "value": "#1D2E3705",
         "type": "color",
-        "description": ""
+        "description": "rgba(29,46,55,0.02)"
       }
     },
     "shades": {
