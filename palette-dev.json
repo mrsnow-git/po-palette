@@ -1,967 +1,591 @@
 {
-  "borderWidth": {
-    "none": {
-      "value": "0",
-      "type": "borderWidth"
-    },
-    "base": {
-      "value": "0.5",
-      "type": "borderWidth",
-      "description": "Default border thickness"
-    },
-    "normal": {
-      "value": "$borderWidth.base * 2",
-      "type": "borderWidth"
-    },
-    "large": {
-      "value": "$borderWidth.base * 4",
-      "type": "borderWidth"
-    }
-  },
-  "borderRadius": {
-    "none": {
-      "value": "0",
-      "type": "borderRadius"
-    },
-    "xxxs": {
-      "value": "3",
-      "type": "borderRadius"
-    },
-    "xxs": {
-      "value": "6",
-      "type": "borderRadius"
-    },
-    "xs": {
-      "value": "7",
-      "type": "borderRadius"
-    },
-    "s": {
-      "value": "9",
-      "type": "borderRadius"
-    },
-    "m": {
-      "value": "10",
-      "type": "borderRadius"
-    },
-    "l": {
-      "value": "12",
-      "description": "Use for all regular content ios cards",
-      "type": "borderRadius"
-    },
-    "xl": {
-      "value": "16",
-      "description": "Dialogues & Popups",
-      "type": "borderRadius"
-    },
-    "xxl": {
-      "value": "19",
-      "description": "Modals",
-      "type": "borderRadius"
-    },
-    "xxxl": {
-      "value": "29",
-      "description": "UI BKG divider",
-      "type": "borderRadius"
-    }
-  },
-  "fontFamilies": {
-    "specialFont": {
-      "value": "SF Pro Rounded",
-      "type": "fontFamilies",
-      "description": "All platforms"
-    },
-    "ios": {
-      "value": "SF Pro Text",
-      "description": "iOS only",
-      "type": "fontFamilies"
-    }
-  },
-  "lineHeight": {
-    "prcntAuto": {
-      "value": "Auto",
-      "type": "lineHeights"
-    },
-    "prcnt50": {
-      "value": "50%",
-      "type": "lineHeights"
-    },
-    "prcnt75": {
-      "value": "75%",
-      "type": "lineHeights"
-    },
-    "prcnt120": {
-      "value": "120%",
-      "type": "lineHeights",
-      "description": "TSUM Lenta only"
-    },
-    "prcnt150": {
-      "value": "150%",
-      "type": "lineHeights"
-    },
-    "prcnt200": {
-      "value": "200%",
-      "type": "lineHeights"
-    }
-  },
-  "fontWeight": {
-    "light": {
-      "value": "Light",
-      "type": "fontWeights",
-      "description": "SFUI only"
-    },
-    "regular": {
-      "value": "Regular",
-      "type": "fontWeights",
-      "description": "SFUI + TSUM Lenta"
-    },
-    "semi": {
-      "value": "Semibold",
-      "type": "fontWeights",
-      "description": "SFUI only"
-    },
-    "medium": {
-      "value": "Medium",
-      "type": "fontWeights",
-      "description": "SFUI only"
-    },
-    "bold": {
-      "value": "Bold",
-      "type": "fontWeights",
-      "description": "SFUI only"
-    }
-  },
-  "letterSpacing": {
-    "specialFontSpacing": {
-      "value": "0%",
-      "type": "letterSpacing",
-      "description": "Tsum Lenta only"
-    },
-    "noSpacing": {
-      "value": "0%",
-      "type": "letterSpacing",
-      "description": "Any"
-    }
-  },
-  "typography": {
-    "leading": {
-      "display": {
-        "fontFamily": {
-          "value": "$fontFamilies.specialFont",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.semi",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcnt120",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.xlarge",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
+  "PREOWNED": {
+    "borderWidth": {
+      "none": {
+        "value": "0",
+        "type": "borderWidth"
       },
-      "h1": {
-        "fontFamily": {
-          "value": "$fontFamilies.specialFont",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.semi",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcnt120",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.large",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
-      },
-      "h2": {
-        "fontFamily": {
-          "value": "$fontFamilies.specialFont",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.semi",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcnt150",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.medium",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
-      },
-      "h3": {
-        "fontFamily": {
-          "value": "$fontFamilies.specialFont",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.semi",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcnt150",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.small",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
-      },
-      "h4": {
-        "fontFamily": {
-          "value": "$fontFamilies.specialFont",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.semi",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcnt150",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.xsmall",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
-      }
-    },
-    "paragraph": {
-      "bold": {
-        "fontFamily": {
-          "value": "$fontFamilies.ios",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.bold",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcnt150",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.medium",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
-      },
-      "medium": {
-        "fontFamily": {
-          "value": "$fontFamilies.ios",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.medium",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcnt150",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.medium",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
-      },
-      "regular": {
-        "fontFamily": {
-          "value": "$fontFamilies.ios",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.regular",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcnt150",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.medium",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
-      }
-    },
-    "list": {
-      "bold": {
-        "fontFamily": {
-          "value": "$fontFamilies.ios",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.bold",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcnt150",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.normal",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
-      },
-      "medium": {
-        "fontFamily": {
-          "value": "$fontFamilies.ios",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.medium",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcnt150",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.normal",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
-      },
-      "regular": {
-        "fontFamily": {
-          "value": "$fontFamilies.ios",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.regular",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcnt150",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.normal",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
-      }
-    },
-    "label": {
-      "medium": {
-        "fontFamily": {
-          "value": "$fontFamilies.specialFont",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.regular",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcntAuto",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.normal",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
+      "base": {
+        "value": "0.5",
+        "type": "borderWidth",
+        "description": "Deafult border thikness"
       },
       "normal": {
-        "fontFamily": {
-          "value": "$fontFamilies.ios",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.regular",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcntAuto",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.xsmall",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.uppercase",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
-      },
-      "small": {
-        "fontFamily": {
-          "value": "$fontFamilies.ios",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.medium",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcntAuto",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.xxsmall",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.uppercase",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
-      }
-    },
-    "body": {
-      "bold": {
-        "fontFamily": {
-          "value": "$fontFamilies.ios",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.bold",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcnt150",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.small",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
-      },
-      "regular": {
-        "fontFamily": {
-          "value": "$fontFamilies.ios",
-          "type": "fontFamily"
-        },
-        "fontWeight": {
-          "value": "$fontWeight.regular",
-          "type": "fontWeight"
-        },
-        "lineHeight": {
-          "value": "$lineHeight.prcnt150",
-          "type": "lineHeight"
-        },
-        "fontSize": {
-          "value": "$fontSize.ios.small",
-          "type": "fontSize"
-        },
-        "letterSpacing": {
-          "value": "$letterSpacing.noSpacing",
-          "type": "letterSpacing"
-        },
-        "paragraphSpacing": {
-          "value": "$paragraphSpacing.none",
-          "type": "paragraphSpacing"
-        },
-        "textCase": {
-          "value": "$textCase.none",
-          "type": "textCase"
-        },
-        "textDecoration": {
-          "value": "$textDecoration.none",
-          "type": "textDecoration"
-        }
-      }
-    }
-  },
-  "textCase": {
-    "none": {
-      "value": "none",
-      "type": "textCase"
-    },
-    "capitalize": {
-      "value": "capitalize",
-      "type": "textCase"
-    },
-    "uppercase": {
-      "value": "uppercase",
-      "type": "textCase"
-    },
-    "lowercase": {
-      "value": "lowercase",
-      "type": "textCase"
-    }
-  },
-  "fontSize": {
-    "ios": {
-      "xlarge": {
-        "value": "25",
-        "type": "fontSizes",
-        "description": "Used for marketing materials as main title or leading text"
+        "value": "$borderWidth.base * 2",
+        "type": "borderWidth"
       },
       "large": {
+        "value": "$borderWidth.base * 4",
+        "type": "borderWidth"
+      }
+    },
+    "borderRadius": {
+      "none": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "xxxs": {
+        "value": "3",
+        "type": "borderRadius"
+      },
+      "xxs": {
+        "value": "6",
+        "type": "borderRadius"
+      },
+      "xs": {
+        "value": "7",
+        "type": "borderRadius"
+      },
+      "s": {
+        "value": "9",
+        "type": "borderRadius"
+      },
+      "m": {
+        "value": "10",
+        "type": "borderRadius"
+      },
+      "l": {
+        "value": "12",
+        "description": "Use for all regular content ios cards",
+        "type": "borderRadius"
+      },
+      "xl": {
+        "value": "16",
+        "description": "Dialogues & Popups",
+        "type": "borderRadius"
+      },
+      "xxl": {
         "value": "19",
-        "type": "fontSizes"
+        "description": "Modals",
+        "type": "borderRadius"
+      },
+      "xxxl": {
+        "value": "29",
+        "description": "UI BKG divider",
+        "type": "borderRadius"
+      }
+    },
+    "fontFamilies": {
+      "specialFont": {
+        "value": "TSUM Lenta",
+        "type": "fontFamilies",
+        "description": "Previously used: SF Pro Rounded"
+      },
+      "ios": {
+        "value": "SF Pro Text",
+        "description": "iOS only",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeight": {
+      "prcntAuto": {
+        "value": "Auto",
+        "type": "lineHeights"
+      },
+      "prcnt50": {
+        "value": "50%",
+        "type": "lineHeights"
+      },
+      "prcnt75": {
+        "value": "75%",
+        "type": "lineHeights"
+      },
+      "prcnt120": {
+        "value": "120%",
+        "type": "lineHeights",
+        "description": "TSUM Lenta only"
+      },
+      "prcnt150": {
+        "value": "150%",
+        "type": "lineHeights"
+      },
+      "prcnt200": {
+        "value": "200%",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeight": {
+      "light": {
+        "value": "Light",
+        "type": "fontWeights",
+        "description": "SFUI only"
+      },
+      "regular": {
+        "value": "Regular",
+        "type": "fontWeights",
+        "description": "SFUI + TSUM Lenta"
+      },
+      "semi": {
+        "value": "Semibold",
+        "type": "fontWeights",
+        "description": "SFUI only"
       },
       "medium": {
-        "value": "15",
-        "type": "fontSizes"
+        "value": "Medium",
+        "type": "fontWeights",
+        "description": "SFUI only"
+      },
+      "bold": {
+        "value": "Bold",
+        "type": "fontWeights",
+        "description": "SFUI only"
+      }
+    },
+    "letterSpacing": {
+      "specialFontSpacing": {
+        "value": "1.2",
+        "type": "letterSpacing",
+        "description": "Tsum Lenta only"
+      },
+      "noSpacing": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "description": "Any"
+      }
+    },
+    "typography": {
+      "leading": {
+        "display": {
+          "value": {
+            "fontFamily": "$fontFamilies.specialFont",
+            "fontWeight": "$fontWeight.regular",
+            "lineHeight": "$lineHeight.prcnt120",
+            "fontSize": "$fontSize.ios.xlarge",
+            "letterSpacing": "$letterSpacing.specialFontSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.uppercase",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography",
+          "description": "Commonly used for marketing materials as Main title/headline"
+        },
+        "h1": {
+          "value": {
+            "fontFamily": "$fontFamilies.specialFont",
+            "fontWeight": "$fontWeight.regular",
+            "lineHeight": "$lineHeight.prcnt120",
+            "fontSize": "$fontSize.ios.large",
+            "letterSpacing": "$letterSpacing.specialFontSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.uppercase",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography",
+          "description": "Commonly used for marketing materials as Main title/headline"
+        },
+        "h2": {
+          "value": {
+            "fontFamily": "$fontFamilies.specialFont",
+            "fontWeight": "$fontWeight.regular",
+            "lineHeight": "$lineHeight.prcnt150",
+            "fontSize": "$fontSize.ios.medium",
+            "letterSpacing": "$letterSpacing.specialFontSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.uppercase",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        },
+        "h3": {
+          "value": {
+            "fontFamily": "$fontFamilies.specialFont",
+            "fontWeight": "$fontWeight.regular",
+            "lineHeight": "$lineHeight.prcnt150",
+            "fontSize": "$fontSize.ios.small",
+            "letterSpacing": "$letterSpacing.specialFontSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.uppercase",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        },
+        "h4": {
+          "value": {
+            "fontFamily": "$fontFamilies.specialFont",
+            "fontWeight": "$fontWeight.regular",
+            "lineHeight": "$lineHeight.prcnt150",
+            "fontSize": "$fontSize.ios.xsmall",
+            "letterSpacing": "$letterSpacing.specialFontSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.uppercase",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        }
+      },
+      "paragraph": {
+        "bold": {
+          "value": {
+            "fontFamily": "$fontFamilies.ios",
+            "fontWeight": "$fontWeight.bold",
+            "lineHeight": "$lineHeight.prcnt150",
+            "fontSize": "$fontSize.ios.medium",
+            "letterSpacing": "$letterSpacing.noSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "$fontFamilies.ios",
+            "fontWeight": "$fontWeight.medium",
+            "lineHeight": "$lineHeight.prcnt150",
+            "fontSize": "$fontSize.ios.medium",
+            "letterSpacing": "$letterSpacing.noSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        },
+        "regular": {
+          "value": {
+            "fontFamily": "$fontFamilies.ios",
+            "fontWeight": "$fontWeight.regular",
+            "lineHeight": "$lineHeight.prcnt150",
+            "fontSize": "$fontSize.ios.medium",
+            "letterSpacing": "$letterSpacing.noSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        }
+      },
+      "list": {
+        "bold": {
+          "value": {
+            "fontFamily": "$fontFamilies.ios",
+            "fontWeight": "$fontWeight.bold",
+            "lineHeight": "$lineHeight.prcnt150",
+            "fontSize": "$fontSize.ios.normal",
+            "letterSpacing": "$letterSpacing.noSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "$fontFamilies.ios",
+            "fontWeight": "$fontWeight.medium",
+            "lineHeight": "$lineHeight.prcnt150",
+            "fontSize": "$fontSize.ios.normal",
+            "letterSpacing": "$letterSpacing.noSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        },
+        "regular": {
+          "value": {
+            "fontFamily": "$fontFamilies.ios",
+            "fontWeight": "$fontWeight.regular",
+            "lineHeight": "$lineHeight.prcnt150",
+            "fontSize": "$fontSize.ios.normal",
+            "letterSpacing": "$letterSpacing.noSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        }
+      },
+      "label": {
+        "medium": {
+          "value": {
+            "fontFamily": "$fontFamilies.ios",
+            "fontWeight": "$fontWeight.light",
+            "lineHeight": "$lineHeight.prcntAuto",
+            "fontSize": "$fontSize.ios.normal",
+            "letterSpacing": "$letterSpacing.noSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.uppercase",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography",
+          "description": "Used for tags & tags cloud"
+        },
+        "normal": {
+          "value": {
+            "fontFamily": "$fontFamilies.ios",
+            "fontWeight": "$fontWeight.regular",
+            "lineHeight": "$lineHeight.prcntAuto",
+            "fontSize": "$fontSize.ios.xsmall",
+            "letterSpacing": "$letterSpacing.noSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.uppercase",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography",
+          "description": "Used for tabs"
+        },
+        "small": {
+          "value": {
+            "fontFamily": "$fontFamilies.ios",
+            "fontWeight": "$fontWeight.medium",
+            "lineHeight": "$lineHeight.prcntAuto",
+            "fontSize": "{fontSize.ios.xxxsmall}",
+            "letterSpacing": "$letterSpacing.noSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.uppercase",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography",
+          "description": "Used for badges"
+        }
+      },
+      "body": {
+        "bold": {
+          "value": {
+            "fontFamily": "$fontFamilies.ios",
+            "fontWeight": "$fontWeight.bold",
+            "lineHeight": "$lineHeight.prcnt150",
+            "fontSize": "$fontSize.ios.small",
+            "letterSpacing": "$letterSpacing.noSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        },
+        "regular": {
+          "value": {
+            "fontFamily": "$fontFamilies.ios",
+            "fontWeight": "$fontWeight.regular",
+            "lineHeight": "$lineHeight.prcnt150",
+            "fontSize": "$fontSize.ios.small",
+            "letterSpacing": "$letterSpacing.noSpacing",
+            "paragraphSpacing": "$paragraphSpacing.none",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "capitalize": {
+        "value": "capitalize",
+        "type": "textCase"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      },
+      "lowercase": {
+        "value": "lowercase",
+        "type": "textCase"
+      }
+    },
+    "fontSize": {
+      "ios": {
+        "xlarge": {
+          "value": "25",
+          "type": "fontSizes",
+          "description": "Used for marketing materials as main title or leading text"
+        },
+        "large": {
+          "value": "17",
+          "type": "fontSizes"
+        },
+        "medium": {
+          "value": "15",
+          "type": "fontSizes"
+        },
+        "normal": {
+          "value": "13",
+          "type": "fontSizes"
+        },
+        "small": {
+          "value": "12",
+          "type": "fontSizes"
+        },
+        "xsmall": {
+          "value": "11",
+          "type": "fontSizes"
+        },
+        "xxsmall": {
+          "value": "10",
+          "type": "fontSizes"
+        },
+        "xxxsmall": {
+          "value": "8",
+          "type": "fontSizes"
+        }
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    },
+    "paragraphSpacing": {
+      "none": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "spacing": {
+      "none": {
+        "value": "0",
+        "type": "spacing",
+        "description": "Zero value"
+      },
+      "base": {
+        "value": "4",
+        "description": "Default step size across all products",
+        "type": "spacing"
       },
       "normal": {
-        "value": "13",
-        "type": "fontSizes"
+        "value": "$spacing.base * 2",
+        "type": "spacing"
       },
-      "small": {
-        "value": "12",
-        "type": "fontSizes"
+      "double": {
+        "value": "$spacing.base * 4",
+        "type": "spacing"
       },
-      "xsmall": {
-        "value": "11",
-        "type": "fontSizes"
+      "triple": {
+        "value": "$spacing.base * 6",
+        "type": "spacing",
+        "description": "Mostly used for core paddings on ios apps"
       },
-      "xxsmall": {
-        "value": "8",
-        "type": "fontSizes"
-      }
-    }
-  },
-  "textDecoration": {
-    "none": {
-      "value": "none",
-      "type": "textDecoration"
-    }
-  },
-  "paragraphSpacing": {
-    "none": {
-      "value": "0",
-      "type": "paragraphSpacing"
-    }
-  },
-  "spacing": {
-    "none": {
-      "value": "0",
-      "type": "spacing",
-      "description": "Zero value"
-    },
-    "base": {
-      "value": "4",
-      "description": "Default step size across all products",
-      "type": "spacing"
-    },
-    "normal": {
-      "value": "$spacing.base * 2",
-      "type": "spacing"
-    },
-    "double": {
-      "value": "$spacing.base * 4",
-      "type": "spacing"
-    },
-    "triple": {
-      "value": "$spacing.base * 6",
-      "type": "spacing",
-      "description": "Mostly used for core paddings on ios apps"
-    },
-    "quadruple": {
-      "value": "$spacing.base * 8",
-      "type": "spacing"
-    }
-  },
-  "opacity": {
-    "overlay": {
-      "value": "65%",
-      "type": "opacity",
-      "description": "Screen overlay"
-    },
-    "disabled": {
-      "value": "24%",
-      "type": "opacity",
-      "description": "Use as disable state for any components within UI kit"
-    }
-  },
-  "dividers": {
-    "bottom": {
-      "x": {
-        "value": "0",
-        "type": "x"
-      },
-      "y": {
-        "value": "-1",
-        "type": "y"
-      },
-      "blur": {
-        "value": "0",
-        "type": "blur"
-      },
-      "spread": {
-        "value": "0",
-        "type": "spread"
-      },
-      "color": {
-        "value": "$color.shades.highlight",
-        "type": "color"
-      },
-      "type": {
-        "value": "innerShadow",
-        "type": "type"
+      "quadruple": {
+        "value": "$spacing.base * 8",
+        "type": "spacing"
       }
     },
-    "top": {
-      "x": {
-        "value": "0",
-        "type": "x"
+    "opacity": {
+      "overlay": {
+        "value": "65%",
+        "type": "opacity",
+        "description": "Screen overlay"
       },
-      "y": {
-        "value": "0.5",
-        "type": "y"
-      },
-      "blur": {
-        "value": "0",
-        "type": "blur"
-      },
-      "spread": {
-        "value": "0",
-        "type": "spread"
-      },
-      "color": {
-        "value": "$color.secondary.neutral",
-        "type": "color"
-      },
-      "type": {
-        "value": "innerShadow",
-        "type": "type"
-      }
-    }
-  },
-  "shadows": {
-    "inputShadow": {
-      "x": {
-        "value": "0",
-        "type": "x"
-      },
-      "y": {
-        "value": "1",
-        "type": "y"
-      },
-      "blur": {
-        "value": "2",
-        "type": "blur"
-      },
-      "spread": {
-        "value": "0",
-        "type": "spread"
-      },
-      "color": {
-        "value": "#e2dfea",
-        "type": "color"
-      },
-      "type": {
-        "value": "innerShadow",
-        "type": "type"
+      "disabled": {
+        "value": "24%",
+        "type": "opacity",
+        "description": "Use as disable state for any components within UI kit"
       }
     },
-    "pullShadow": {
-      "x": {
-        "value": "0",
-        "type": "x"
+    "dividers": {
+      "bottom": {
+        "value": {
+          "x": "0",
+          "y": "-1",
+          "blur": "0",
+          "spread": "0",
+          "color": "$color.shades.highlight",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow",
+        "description": "Use to divide list elements at the bottom"
       },
-      "y": {
-        "value": "4",
-        "type": "y"
-      },
-      "blur": {
-        "value": "16",
-        "type": "blur"
-      },
-      "spread": {
-        "value": "0",
-        "type": "spread"
-      },
-      "color": {
-        "value": "$color.secondary.neutral",
-        "type": "color"
-      },
-      "type": {
-        "value": "dropShadow",
-        "type": "type"
-      }
-    }
-  },
-  "color": {
-    "primary": {
-      "brandcore": {
-        "value": "#F94F0D",
-        "type": "color",
-        "description": "Previously used as #930E0E #CDAA62" 
-      },
-      "contentcore": {
-        "value": "#1b1b1b",
-        "type": "color"
+      "top": {
+        "value": {
+          "x": "0",
+          "y": "1",
+          "blur": "0",
+          "spread": "0",
+          "color": "$color.shades.highlight",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow",
+        "description": "Divider between blocks of content — at the top"
       }
     },
-    "secondary": {
-      "neutral": {
-        "value": "#1D2E3799",
-        "type": "color",
-        "description": "rgba(29,46,55,0.6)"
+    "shadows": {
+      "inputShadow": {
+        "value": {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "#e2dfea",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow",
+        "description": "Use as inner shadow for BOLD input textfields only"
       },
-      "moderate": {
-        "value": "#1D2E3705",
-        "type": "color",
-        "description": "rgba(29,46,55,0.02)"
+      "pullShadow": {
+        "value": {
+          "x": "0",
+          "y": "4",
+          "blur": "16",
+          "spread": "0",
+          "color": "$color.secondary.neutral",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Use for floating components only"
       }
     },
-    "shades": {
-      "highlight": {
-        "value": "#f5f4f9",
-        "type": "color"
+    "color": {
+      "primary": {
+        "brandcore": {
+          "value": "#1b1b1b",
+          "type": "color",
+          "description": "Product core accent color"
+        },
+        "contentcore": {
+          "value": "#1b1b1b",
+          "type": "color"
+        },
+        "spotcore": {
+          "value": "#F94F0D",
+          "type": "color",
+          "description": "Use to spot prefered elements within UI"
+        }
       },
-      "extrahighlight": {
-        "value": "#fcfbfd",
-        "type": "color"
+      "secondary": {
+        "neutral": {
+          "value": "#1D2E3799",
+          "type": "color",
+          "description": "depricated: rgba(29,46,55,0.4)"
+        },
+        "moderate": {
+          "value": "#1D2E3705",
+          "type": "color",
+          "description": "rgba(29,46,55,0.05)"
+        }
       },
-      "bgcore": {
-        "value": "#ffffff",
-        "type": "color"
-      }
-    },
-    "warning": {
-      "alert": {
-        "value": "#f84747",
-        "type": "color"
-      }
-    },
-    "services": {
-      "markups": {
-        "value": "#7b61ff",
-        "type": "color"
+      "shades": {
+        "highlight": {
+          "value": "#f5f4f9",
+          "type": "color"
+        },
+        "extrahighlight": {
+          "value": "#fcfbfd",
+          "type": "color"
+        },
+        "bgcore": {
+          "value": "#ffffff",
+          "type": "color"
+        }
       },
-      "imageGray": {
-        "value": "#e8eaeb",
-        "type": "color"
+      "warning": {
+        "alert": {
+          "value": "#f84747",
+          "type": "color"
+        }
+      },
+      "services": {
+        "markups": {
+          "value": "#7b61ff",
+          "type": "color"
+        },
+        "imageGray": {
+          "value": "#e8eaeb",
+          "type": "color"
+        }
       }
     }
   }
