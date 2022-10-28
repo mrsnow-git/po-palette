@@ -66,9 +66,9 @@
   },
   "fontFamilies": {
     "specialFont": {
-      "value": "SF Pro Rounded",
+      "value": "TSUM Lenta",
       "type": "fontFamilies",
-      "description": "All platforms"
+      "description": "Previously used: SF Pro Rounded"
     },
     "ios": {
       "value": "SF Pro Text",
@@ -132,7 +132,7 @@
   },
   "letterSpacing": {
     "specialFontSpacing": {
-      "value": "0%",
+      "value": "1.2",
       "type": "letterSpacing",
       "description": "Tsum Lenta only"
     },
@@ -724,7 +724,7 @@
         "description": "Used for marketing materials as main title or leading text"
       },
       "large": {
-        "value": "19",
+        "value": "17",
         "type": "fontSizes"
       },
       "medium": {
@@ -744,6 +744,10 @@
         "type": "fontSizes"
       },
       "xxsmall": {
+        "value": "10",
+        "type": "fontSizes"
+      },
+      "xxxsmall": {
         "value": "8",
         "type": "fontSizes"
       }
@@ -913,25 +917,30 @@
   "color": {
     "primary": {
       "brandcore": {
-        "value": "#F94F0D",
+        "value": "#1b1b1b",
         "type": "color",
-        "description": "Previously used as #930E0E #CDAA62" 
+        "description": "Product core accent color"
       },
       "contentcore": {
         "value": "#1b1b1b",
         "type": "color"
+      },
+      "spotcore": {
+        "value": "#F94F0D",
+        "type": "color",
+        "description": "Use to spot prefered elements within UI"
       }
     },
     "secondary": {
       "neutral": {
         "value": "#1D2E3799",
         "type": "color",
-        "description": "rgba(29,46,55,0.6)"
+        "description": "depricated: rgba(29,46,55,0.4)"
       },
       "moderate": {
         "value": "#1D2E3705",
         "type": "color",
-        "description": "rgba(29,46,55,0.02)"
+        "description": "rgba(29,46,55,0.05)"
       }
     },
     "shades": {
