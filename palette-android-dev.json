@@ -561,7 +561,7 @@
         "type": "color"
       },
       "bgcore": {
-        "value": "#FF0000",
+        "value": "#00FF00",
         "type": "color"
       }
     },
